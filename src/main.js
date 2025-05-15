@@ -262,5 +262,9 @@ const slider = function () {
       activateDot(slide);
     }
   });
+  //Automatically slide after 5 seconds
+  setInterval(() => {
+    nextSlide();
+  }, 5000);
 };
 slider();
